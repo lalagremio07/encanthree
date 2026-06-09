@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="calculator-container">
+        <h2>Grade Calculator</h2>
+
+
+        <form>
+
+            <div class="form-group">
+                <label for="StudentName">Student Name:</label>
+                <input type="text" id="StudentName" placeholder="Enter Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="StudentCourse">Course Name:</label>
+                <input type="text" id="StudentCourse" placeholder="Enter Course">
+            </div>
+
+            <div class="form-group">
+                <label for="Subject1"> Quizzes:</label>
+                <input type="number" id="Subject1" placeholder=" Enter Your Quizzes Score" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Subject2">Task Perfomance:</label>
+                <input type="number" id="Subject2" placeholder="Enter Your Task Performance Score" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Subject3"> Exam:</label>
+                <input type="number" id="Subject3" placeholder=" Enter Your Exam Score" required>
+            </div>
+
+            <button type="button" id="calculateBtn">
+                Calculate Grades
+            </button>
+
+        </form>
+
+        <div  id="GradeResults">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
